@@ -51,7 +51,18 @@
 
       console.log(minAndMax())
 
-
       //  28) Create an array of arrays, in which every array has 10 random numbers
+
+      let emptyArray = []
+      for (let i = 0; i < 10; i++) {
+        let newEmptyArray = []
+        for (let j = 0; j < 10; j++) {
+            newEmptyArray.push(Math.random() * 10)
+        }
+        emptyArray.push(newEmptyArray)
+      }
+
+      console.log(emptyArray)
+
       //  29) Create a function that gets 2 arrays and returns the longest one
       //  30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
