@@ -1,6 +1,15 @@
-table, th, td {
-    border: 1px solid black;
+
+  table {
     border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 1em;
+    background-color: pink;
+    border-bottom: 2px solid white; 
   }
 
   #firstKitty {
@@ -34,6 +43,8 @@ table, th, td {
 
   .container {
     border: 1px solid black;
+    border-radius: 1em;
+
   }
 
   body {
@@ -55,4 +66,9 @@ table, th, td {
 
   .classWithBorders {
     border: 1px solid black;
+    border-radius: 1em;
+  }
+
+  img {
+      border-radius: 15%;
   }
