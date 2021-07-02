@@ -28,6 +28,9 @@
      const myArray = ["Kittens", "Puppies", "Ducks", "Chickens", "Frogs", "Cows", "Bunnies", "Horses", "Pigs", "Elephants"]
 
       //  25) Print in the console every string in the previous array
+
+     console.log(myArray)
+
       //  26) Create an array with 100 random numbers in it
       //  27) Wrote a function to get the MAX and the MIN from the previously created array
       //  28) Create an array of arrays, in which every array has 10 random numbers
