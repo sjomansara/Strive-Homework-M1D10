@@ -78,7 +78,7 @@
                 const container = document.getElementById("container")
                 console.log("container is: ", container)
             }
-            window.addEventListener("load", function() { selectContainer() })
+            // window.addEventListener("load", function() { selectContainer() })
 
         // 32) Get every "td" from the page
 
@@ -91,7 +91,7 @@
                 const element = document.getElementById("heading")
                 element.innerHTML = newHeading
             }
-            window.addEventListener("load",function() { changeHeading("This is the new heading") })
+            // window.addEventListener("load",function() { changeHeading("This is the new heading") })
 
         // 35) Write a function to add an extra row to the table
 
@@ -102,7 +102,8 @@
                 entry.appendChild(document.createTextNode(content))
                 list.appendChild(entry)
             }
-            window.addEventListener("load",function() { addExtraRow("This is the extra row") })
+        
+            // window.addEventListener("load",function() { addExtraRow("This is the extra row") })
 
         // 36) Write a function to add the class "test" to each row in the table
 
@@ -130,7 +131,7 @@
                 entry.appendChild(document.createTextNode(content))
                 list.appendChild(entry)
             }
-            window.addEventListener("load",function() { addToUnorderedList("New List Item") })
+           // window.addEventListener("load",function() { addToUnorderedList("New List Item") })
 
 
         </script>
