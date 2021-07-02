@@ -39,3 +39,7 @@ table, th, td {
       max-width: 50%;
       margin-left: 25%;
   }
+
+  h1 {
+      text-align: center;
+  }
