@@ -77,3 +77,21 @@
       console.log(returnLongest([1, 2, 3, 4], [2, 3, 4, 5 ,6, 7]))
 
       //  30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
+
+      let returnHigherSum = function (firstArray, secondArray) {
+          let firstArraySum = 0
+          for (let i = 0; i < firstArray.length; i++) {
+              firstArraySum += firstArray[i]
+          }
+          let secondArraySum = 0
+          for (let j = 0; j < secondArray.length; j++) {
+              secondArraySum += secondArray[j]
+          }
+          if (firstArraySum > secondArraySum) {
+              return firstArray
+          } else {
+              return secondArray
+          }
+      }
+
+      console.log(returnHigherSum([1, 2, 3, 4], [2, 3, 4, 5]))
