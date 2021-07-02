@@ -80,10 +80,16 @@
             const element = document.getElementsByTagName("td")
             console.log("all td: ", element)
 
+            const changeHeading = function (newHeading) {
+                const element = document.getElementById("heading")
+                element.innerHTML = newHeading
+            }
+            window.addEventListener("load",function() { changeHeading("This is the new heading") })
+
         </script>
     </head>
     <body>
-        <h1>My Heading</h1>
+        <h1 id="heading"">My Heading</h1>
             <ol class="classWithBorders">
                 <h3>Ordered List</h3>
                 <li>List Item</li>
