@@ -21,26 +21,6 @@
     border-style: dotted;
   }
 
-  #firstKitty {
-    width: 300px;
-    height: autopx;
-  }
-
-  #secondKitty {
-    width: 300px;
-    height: auto;
-  }
-
-  #thirdKitty {
-    width: 300px;
-    height: auto;
-  }
-
-  #fourthKitty {
-    width: 300px;
-    height: auto;
-  }
-
   .width {
     width: 300px;
   }
@@ -88,7 +68,9 @@
   }
 
   img {
-      border-radius: 15%;
+      border-radius: 1em;
+      width: 300px;
+      height: auto;
   }
 
   p {
