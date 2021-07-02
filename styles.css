@@ -1,5 +1,6 @@
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
   }
 
   #firstKitty {
@@ -44,6 +45,14 @@ table, th, td {
       text-align: center;
   }
 
-  .linkColor {
+  a {
     color: pink;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  .classWithBorders {
+    border: 1px solid black;
   }
