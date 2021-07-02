@@ -23,5 +23,10 @@ table, th, td {
   }
 
   .width {
-      width: 300px;
+    width: 300px;
+  }
+
+  hr {
+    height: 2px;
+    background-color: black;
   }
