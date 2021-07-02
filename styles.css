@@ -34,3 +34,8 @@ table, th, td {
   .container {
     border: 1px solid black;
   }
+
+  body {
+      max-width: 50%;
+      margin-left: 25%;
+  }
