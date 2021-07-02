@@ -17,8 +17,12 @@
 
      console.log(person)
 
-
       //  23) Delete Email from the previously created object
+
+     delete person.email
+
+     console.log(person)
+
       //  24) Create an array with 10 strings in it
       //  25) Print in the console every string in the previous array
       //  26) Create an array with 100 random numbers in it
