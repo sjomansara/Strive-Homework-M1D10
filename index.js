@@ -41,6 +41,17 @@
       console.log(random)
 
       //  27) Wrote a function to get the MAX and the MIN from the previously created array
+
+      function minAndMax() {
+        let maxValue = Math.max(...random)
+        let minValue = Math.min(...random)
+
+        return [minValue, maxValue]
+      }
+
+      console.log(minAndMax())
+
+
       //  28) Create an array of arrays, in which every array has 10 random numbers
       //  29) Create a function that gets 2 arrays and returns the longest one
       //  30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
