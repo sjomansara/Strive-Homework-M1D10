@@ -65,4 +65,15 @@
       console.log(emptyArray)
 
       //  29) Create a function that gets 2 arrays and returns the longest one
+
+      let returnLongest = function (array1, array2) {
+        if (array1.length > array1.length) {
+            return array1 
+        } else {
+          return array2
+        }
+       }
+
+      console.log(returnLongest([1, 2, 3, 4], [2, 3, 4, 5 ,6, 7]))
+
       //  30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
