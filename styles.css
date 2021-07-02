@@ -11,8 +11,13 @@
     padding: 1em;
     background-color: white;
     border-bottom: 2px solid white; 
-    color: white;
+    color: pink;
     border-color: green;
+  }
+
+  tr {
+    border-color: red;
+    border-style: dotted;
   }
 
   #firstKitty {
@@ -55,7 +60,7 @@
   body {
       max-width: 50%;
       margin-left: 25%;
-      background-color: green;
+      background-color: pink;
   }
 
   h1 {
