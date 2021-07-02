@@ -43,3 +43,7 @@ table, th, td {
   h1 {
       text-align: center;
   }
+
+  .linkColor {
+    color: pink;
+  }
