@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+  #firstKitty {
+    width: 300px;
+    height: autopx;
+  }
+
+  #secondKitty {
+    width: 300px;
+    height: auto;
+  }
+
+  #thirdKitty {
+    width: 300px;
+    height: auto;
+  }
+
+  #fourthKitty {
+    width: 300px;
+    height: auto;
+  }
+
+  .width {
+      width: 300px;
+  }
