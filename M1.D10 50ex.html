@@ -120,6 +120,19 @@
 
             window.addEventListener("load",function() { console.log("Page loaded") })
 
+
+        // 39) Write a function to add new items to a UL
+
+            const addToUnorderedList = function (content) {
+                let list = document.getElementById("unordered")
+                const newItem = document.getElementById("unordered").value
+                let entry = document.createElement("li")
+                entry.appendChild(document.createTextNode(content))
+                list.appendChild(entry)
+            }
+            window.addEventListener("load",function() { addToUnorderedList("New List Item") })
+
+
         </script>
     </head>
     <body>
@@ -169,7 +182,7 @@
             <hr>
         <div id="container">
             <p class="font">This is the nested paragraph.</p>
-            <ul>
+            <ul id="unordered">
                 <li>List Item</li>
                 <li>List Item</li>
                 <li>List Item</li>
