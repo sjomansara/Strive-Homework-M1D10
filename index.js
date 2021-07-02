@@ -2,10 +2,10 @@
 
       //  21) Given variable x = "John" and y = "Doe", write on the console log "John <> Doe"
 
-      /* let x = "John"
+      let x = "John"
       let y = "Doe"
       
-      console.log(John <> Doe) */
+      console.log(x + " <> " + y)
 
       //  22) Create an object with properties such name, surname, email
 
@@ -32,6 +32,14 @@
      console.log(myArray)
 
       //  26) Create an array with 100 random numbers in it
+
+      let randomNumbers = function() {
+        return Math.floor(Math.random() * 100)
+       }
+      let random = Array(100).fill(0).map(randomNumbers)
+
+      console.log(random)
+
       //  27) Wrote a function to get the MAX and the MIN from the previously created array
       //  28) Create an array of arrays, in which every array has 10 random numbers
       //  29) Create a function that gets 2 arrays and returns the longest one
