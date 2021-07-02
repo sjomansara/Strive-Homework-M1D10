@@ -95,3 +95,7 @@
       font-size: larger;
       font-weight: bold;
   }
+
+  .hide {
+     visibility: hidden;
+  }
