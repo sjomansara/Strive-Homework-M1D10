@@ -1,9 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
   table {
     border-collapse: collapse;
     border-radius: 1em;
     overflow: hidden;
-    
   }
   
   th, td {
@@ -61,6 +62,7 @@
       max-width: 50%;
       margin-left: 25%;
       background-color: pink;
+      font-family: 'Raleway', sans-serif;
   }
 
   h1 {
@@ -102,6 +104,7 @@
   .font {
       font-size: larger;
       font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif
   }
 
   .hide {
