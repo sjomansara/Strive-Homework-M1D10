@@ -25,7 +25,13 @@
 
       //  24) Create an array with 10 strings in it
 
-     const myArray = ["Kittens", "Puppies", "Ducks", "Chickens", "Frogs", "Cows", "Bunnies", "Horses", "Pigs", "Elephants"]
+     // const myArray = ["Kittens", "Puppies", "Ducks", "Chickens", "Frogs", "Cows", "Bunnies", "Horses", "Pigs", "Elephants"]
+      
+     const myArray = []
+
+     for (let i = 1; i < 10; 1++) {
+       myArray.push("string" + i)
+     }
 
       //  25) Print in the console every string in the previous array
 
