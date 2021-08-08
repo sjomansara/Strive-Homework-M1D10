@@ -82,8 +82,18 @@
 
         // 32) Get every "td" from the page
 
-            const element = document.getElementsByTagName("td")
-            console.log("all td: ", element)
+            const tdCollection = document.getElementsByTagName("td")
+            //console.log("all td: ", element)
+
+        /* 33) Create a cycle that prints the text inside every td of the page
+           
+            console.log("element is: ", tdCollection)
+            const printTdCollection = function() {
+                for (let i = 0; i < tdCollection.length; i++) {
+                    console.log("test: ", tdCollection[i])
+                }
+            }
+            printTdCollection() */
 
         // 34) Write a function to change the heading of the page
 
@@ -115,11 +125,11 @@
             }
             window.addEventListener("load",function() { addClass() })
 
-            console.log(document.getElementsByTagName("tr"))
+            // console.log(document.getElementsByTagName("tr"))
 
         // 38) Console log "Page loaded" when the page is correctly loaded
 
-            window.addEventListener("load",function() { console.log("Page loaded") })
+            //  window.addEventListener("load",function() { console.log("Page loaded") })
 
 
         // 39) Write a function to add new items to a UL
